@@ -1,20 +1,17 @@
-[
-    {
-        "id": "NE2211_50b8697c_taro",
-        "expiry": 1861919999,
-        "owner": "User123",
-        "active": true,
-        "notes": "Device utama",
-        "created_at": 1717027200,
-        "updated_at": 1717027200
-    },
-    {
-        "id": "SMG998B_ee7ad9f6_exynos",
-        "expiry": 1893455999,
-        "owner": "GamerPro",
-        "active": false,
-        "notes": "Cadangan",
-        "created_at": 1717027200,
-        "updated_at": 1717113600
-    }
-]
+{
+    "devices": [
+        {
+            "id": "NE2211_50b8697c_taro",
+            "expiry": "2029-12-31 23:59:59",
+            "name": "Device 1",
+            "active": true,
+            "image_url": "https://github.com/username/repo/raw/main/images/device1.png"
+        },
+        {
+            "id": "I2401_d96f7977_qcom",
+            "expiry": "2025-03-14 23:59:59",
+            "active": false,
+            "transfer_to": "X689B_b19a9f6b_mt6768"
+        }
+    ]
+}
