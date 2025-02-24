@@ -5,8 +5,8 @@
             "expiry": 1893455999,
             "package": "com.garena.game.codm",
             "active": true,
-            "owner": "@arcamod",
-            "license_key": "ABCD-1234-EFGH-5678",
+            "owner": "user123",
+            "license_key": "a1b2c3d4...",
             "name": "Device 1"
         }
     ]
