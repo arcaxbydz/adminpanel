@@ -1,13 +1,10 @@
-{
-    "devices": [
-        {
-            "id": "NE2211_50b8697c_taro",
-            "expiry": 1893455999,
-            "package": "com.garena.game.codm",
-            "active": true,
-            "owner": "@arcamod",
-            "license_key": "a1b2c3d4...",
-            "name": "Device 1"
-        }
-    ]
-}
+[
+    {
+        "id": "NE2211_50b8697c_taro",
+        "expiry": 1861919999,
+        "owner": "User123",
+        "active": true,
+        "notes": "Device utama"
+    },
+    ...
+]
