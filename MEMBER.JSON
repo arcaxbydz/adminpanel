@@ -1,12 +1,12 @@
 {
     "devices": [
         {
-            "id": "NE2211_50b8697c_taro",
-            "expiry": "2029-12-31 23:59:59",
-            "name": "Device 1",
-            "active": true,
-            "owner": "user123",
-            "license_key": "ABCD-1234-EFGH-5678"
+            "id": "NE2211_50b8697c_taro",      // ID device sesuai config.h
+            "expiry": "2029-12-31 23:59:59",    // Format timestamp YYYY-MM-DD HH:mm:ss
+            "name": "Device 1",                 // Nama device untuk admin panel
+            "active": true,                    // Status aktif/nonaktif
+            "owner": "user123",                // ID pemilik device
+            "license_key": "ABCD-1234-EFGH-5678" // Kunci lisensi untuk transfer
         }
     ]
 }
