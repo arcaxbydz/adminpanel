@@ -4,7 +4,17 @@
         "expiry": 1861919999,
         "owner": "User123",
         "active": true,
-        "notes": "Device utama"
+        "notes": "Device utama",
+        "created_at": 1717027200,
+        "updated_at": 1717027200
     },
-    ...
+    {
+        "id": "SMG998B_ee7ad9f6_exynos",
+        "expiry": 1893455999,
+        "owner": "GamerPro",
+        "active": false,
+        "notes": "Cadangan",
+        "created_at": 1717027200,
+        "updated_at": 1717113600
+    }
 ]
