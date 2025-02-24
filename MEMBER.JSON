@@ -2,8 +2,10 @@
     "devices": [
         {
             "device_id": "NE2211_50b8697c_taro",
-            "expiry": "2029-12-30 23:59:59",
-            "owner_id": "user123"
+            "expiry": "2029-12-31 23:59:59",
+            "is_active": true,
+            "owner_id": "user123",
+            "device_name": "OnePlus Device"
         },
         {
             "device_id": "I2401_d96f7977_qcom",
