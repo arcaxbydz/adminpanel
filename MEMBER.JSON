@@ -5,7 +5,7 @@
             "expiry": "2029-12-31 23:59:59",
             "name": "Device 1",
             "active": true,
-            "image_url": "https://github.com/username/repo/raw/main/images/device1.png"
+            "image_url": ""
         },
         {
             "id": "I2401_d96f7977_qcom",
