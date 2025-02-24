@@ -1,17 +1,18 @@
 {
-    "devices": [
-        {
-            "id": "NE2211_50b8697c_taro",
-            "expiry": "2029-12-31 23:59:59",
-            "name": "Device 1",
-            "active": true,
-            "image_url": ""
-        },
-        {
-            "id": "I2401_d96f7977_qcom",
-            "expiry": "2025-03-14 23:59:59",
-            "active": false,
-            "transfer_to": "X689B_b19a9f6b_mt6768"
-        }
-    ]
+  "devices": [
+    {
+      "device_id": "NE2211_50b8697c_taro",
+      "expiry": "2029-12-31 23:59:59",
+      "device_name": "OnePlus Device",
+      "is_active": true,
+      "owner_id": "user123"
+    },
+    {
+      "device_id": "I2401_d96f7977_qcom",
+      "expiry": "2025-03-14 23:59:59",
+      "device_name": "Xiaomi Device",
+      "is_active": true,
+      "owner_id": "user456"
+    }
+  ]
 }
