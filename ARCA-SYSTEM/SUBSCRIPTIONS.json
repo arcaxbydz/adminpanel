@@ -1,0 +1,20 @@
+{
+    "subscriptions": [
+        {
+            "device_id": "NE2211_50b8697c_taro",
+            "start_date": 1924991999,  // Timestamp mulai
+            "end_date": 1927583999,    // Timestamp berakhir
+            "payment_id": "INV-20250715-001",
+            "status": "active",        // active/expired/canceled
+            "plan": {
+                "name": "premium",
+                "price_idr": 149000,
+                "features": ["4K Streaming", "Priority Support"]
+            },
+            "renewal": {
+                "auto_renew": true,
+                "next_payment": 1927584000
+            }
+        }
+    ]
+}
