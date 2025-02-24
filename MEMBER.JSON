@@ -3,10 +3,13 @@
         {
             "id": "NE2211_50b8697c_taro",
             "expiry": 1893455999,
-            "name": "Device 1",
             "active": true,
-            "owner": "user123",
-            "license_key": "ABCD-1234-EFGH-5678"
+            "package": "com.garena.game.codm",
+            "metadata": {
+                "owner": "arcamod",
+                "package_name": "com.tencent.ig",
+                "max_transfer": 30
+            }
         }
     ]
 }
