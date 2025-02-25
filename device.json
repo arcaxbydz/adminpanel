@@ -3,8 +3,7 @@
         {
             "id": "NE2211_76c30038",
             "expiry": 1999999999,
-            "is_active": true,
-            "device_name": "Device Utama"
+            "is_active": true
         }
     ]
 }
