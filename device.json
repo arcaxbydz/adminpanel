@@ -1,8 +1,8 @@
 {
     "devices": [
         {
-            "id": "NE2211_38d3a928_taro_1740479106",
-            "expiry": 1790479106,
+            "id": "NE2211_38d3a928_taro",
+            "expiry": 1790479241,
             "is_active": true,
             "device_name": "Device Anda"
         }
