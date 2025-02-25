@@ -1,29 +1,27 @@
-name: Update Signature
+name: Sign Devices
 
 on:
   push:
     paths:
       - 'devices/devices.json'
-      
+
 jobs:
-  update-signature:
+  sign:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       
-      - name: Calculate SHA256
-        id: hash
+      - name: Calculate HMAC
+        env:
+          SECRET_KEY: ${{ secrets.SIGNING_KEY }}
         run: |
-          JSON_DATA=$(jq -c .devices devices/devices.json)
-          SIGNATURE=$(echo -n "$JSON_DATA${{ secrets.SIGNING_KEY }}" | sha256sum | cut -d' ' -f1)
-          echo "signature=$SIGNATURE" >> $GITHUB_OUTPUT
+          echo "Calculating HMAC-SHA256..."
+          DEVICES_JSON=$(jq -c .devices devices/devices.json)
+          SIGNATURE=$(echo -n "$DEVICES_JSON" | openssl dgst -sha256 -hmac "$SECRET_KEY" -binary | base64)
+          jq --arg sig "$SIGNATURE" '.signature = $sig' devices/devices.json > temp.json
+          mv temp.json devices/devices.json
           
-      - name: Update Signature
-        run: |
-          jq --arg sig "${{ steps.hash.outputs.signature }}" '.signature = $sig' devices/devices.json > tmp.json
-          mv tmp.json devices/devices.json
-          
-      - name: Commit changes
+      - name: Commit Changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Auto-update signature"
+          commit_message: "Auto-sign devices"
