@@ -1,14 +1,9 @@
-[
-    {
-        "id": "NE2211_f98e31cc_taro_1740478531",
-        "expiry": 1790478531,
-        "device_name": "OnePlus 10 Pro",
-        "is_active": true
-    },
-    {
-        "id": "I2401_d96f7977_qcom",
-        "expiry": 1743206400,  // 14 Maret 2025
-        "device_name": "Xiaomi 13T",
-        "is_active": true
-    }
-]
+{
+    "devices": [
+        {
+            "id": "NE2211_f98e31cc_taro_1740478531",
+            "expiry": 1790478531,
+            "is_active": true
+        }
+    ]
+}
