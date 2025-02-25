@@ -1,10 +1,10 @@
 {
     "devices": [
         {
-            "id": "NE2211_6b86b273",
-            "expiry": 1790479241,
+            "id": "NE2211_76c30038",
+            "expiry": 1999999999,
             "is_active": true,
-            "device_name": "Device Anda"
+            "device_name": "Device Utama"
         }
     ]
 }
