@@ -1,0 +1,14 @@
+[
+    {
+        "id": "NE2211_50b8697c_taro",
+        "expiry": 1893456000,  // 31 Desember 2029
+        "device_name": "OnePlus 10 Pro",
+        "is_active": true
+    },
+    {
+        "id": "I2401_d96f7977_qcom",
+        "expiry": 1743206400,  // 14 Maret 2025
+        "device_name": "Xiaomi 13T",
+        "is_active": true
+    }
+]
