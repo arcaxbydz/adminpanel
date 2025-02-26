@@ -1,26 +1,14 @@
-{
-    "devices": [
-        {
-            "id": "NE2211_96965e4399fc3869_1585111919",
-            "name": "OnePlus 10 Pro",
-            "expiry_year": 2029,
-            "expiry_month": 12,
-            "expiry_day": 31,
-            "expiry_hour": 23,
-            "expiry_minute": 59,
-            "expiry_second": 59,
-            "active": true
-        },
-        {
-            "id": "I2401_d96f7977_qcom",
-            "name": "Xiaomi 13T",
-            "expiry_year": 2025,
-            "expiry_month": 3,
-            "expiry_day": 14,
-            "expiry_hour": 23,
-            "expiry_minute": 59,
-            "expiry_second": 59,
-            "active": true
-        }
-    ]
-}
+[
+    {
+        "id": "NE2211_96965e4399fc3869_1585111919",
+        "expiry": "2029-12-31 23:59:59",
+        "device_name": "OnePlus 9 Pro",
+        "is_active": true
+    },
+    {
+        "id": "23049PCD8G_46ccbb3fa448d62b_1734428211",
+        "expiry": "2027-02-13 12:00:00",
+        "device_name": "Xiaomi POCO X5",
+        "is_active": true
+    }
+]
