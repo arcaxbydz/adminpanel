@@ -1,16 +1,14 @@
-{
-    "devices": [
-        {
-            "device_id": "NE2211_50b8697c_taro",
-            "expiry": "2029-12-31 23:59:59",
-            "is_active": true,
-            "owner_id": "user123",
-            "device_name": "OnePlus Device"
-        },
-        {
-            "device_id": "I2401_d96f7977_qcom",
-            "expiry": "2025-03-15 23:59:59",
-            "owner_id": "user456"
-        }
-    ]
-}
+[
+    {
+      "id": "NE2211_96965e4399fc3869_1585111919",
+      "expiry": "2029-12-31 23:59:59",
+      "name": "Device 1",
+      "active": true
+    },
+    {
+      "id": "23049PCD8G_2a4d495c5ca9b0cb_1734428211",
+      "expiry": "2030-12-31 23:59:59",
+      "name": "POCO 23049PCD8G",
+      "active": true
+    }
+]
