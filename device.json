@@ -1,9 +1,26 @@
 {
     "devices": [
         {
-            "id": "NE2211_76c30038",
-            "expiry": 1999999999,
-            "is_active": true
+            "id": "NE2211_96965e4399fc3869_1585111919",
+            "name": "OnePlus 10 Pro",
+            "expiry_year": 2029,
+            "expiry_month": 12,
+            "expiry_day": 31,
+            "expiry_hour": 23,
+            "expiry_minute": 59,
+            "expiry_second": 59,
+            "active": true
+        },
+        {
+            "id": "I2401_d96f7977_qcom",
+            "name": "Xiaomi 13T",
+            "expiry_year": 2025,
+            "expiry_month": 3,
+            "expiry_day": 14,
+            "expiry_hour": 23,
+            "expiry_minute": 59,
+            "expiry_second": 59,
+            "active": true
         }
     ]
 }
