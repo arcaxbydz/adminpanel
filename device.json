@@ -1,14 +1,24 @@
 [
     {
         "id": "NE2211_96965e4399fc3869_1585111919",
-        "expiry": "2029-12-31 23:59:59",
-        "device_name": "OnePlus 9 Pro",
+        "year": 2029,
+        "month": 12,
+        "day": 31,
+        "hour": 23,
+        "minute": 59,
+        "second": 59,
+        "device_name": "Device 1",
         "is_active": true
     },
     {
-        "id": "I2401_d96f7977_qcom",
-        "expiry": "2025-03-14 23:59:59",
-        "device_name": "Xiaomi 12T Pro",
+        "id": "23049PCD8G_46ccbb3fa448d62b_1734428211",
+        "year": 2027,
+        "month": 2,
+        "day": 13,
+        "hour": 12,
+        "minute": 0,
+        "second": 0,
+        "device_name": "POCO",
         "is_active": true
     }
 ]
