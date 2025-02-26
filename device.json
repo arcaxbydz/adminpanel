@@ -1,14 +1,14 @@
 [
-  {
-    "id": "NE2211_96965e4399fc3869_1585111919",
-    "expiry": "2029-12-31 23:59:59",
-    "name": "Device 1",
-    "active": true
-  },
-  {
-    "id": "23049PCD8G_2a4d495c5ca9b0cb_1734428211",
-    "expiry": "2028-12-31 23:59:59",
-    "name": "POCO 23049PCD8G",
-    "active": true
-  }
+    {
+      "id": "NE2211_96965e4399fc3869_1585111919",
+      "expiry": "2029-12-31 23:59:59",
+      "name": "Device 1",
+      "active": true
+    },
+    {
+      "id": "23049PCD8G_2a4d495c5ca9b0cb_1734428211",
+      "expiry": "2028-12-31 23:59:59",
+      "name": "POCO 23049PCD8G",
+      "active": true
+    }
 ]
